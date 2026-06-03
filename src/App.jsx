@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 // Import our active pages
 import Login from './pages/Login.jsx';
 import StudentDashboard from './pages/StudentDashboard.jsx';
+import TeacherDashboard from './pages/TeacherDashboard.jsx';
 
-// Remaining placeholders (we will build these next)
-const TeacherDashboard = () => <div style={{ padding: 20 }}><h3>👨‍🏫 Teacher Hub & Course Builder</h3></div>;
+// Remaining placeholders
 const AdminDashboard = () => <div style={{ padding: 20 }}><h3>👑 Master Admin Command Center</h3></div>;
 
 function App() {
