@@ -1,9 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
-// Placeholder layouts that we will fill next
-const Login = () => <div style={{ padding: 20 }}><h3>Ni-versity Login Screen</h3></div>;
-const StudentDashboard = () => <div style={{ padding: 20 }}><h3>📚 Student Dashboard Collection</h3></div>;
+// Import our active pages
+import Login from './pages/Login.jsx';
+import StudentDashboard from './pages/StudentDashboard.jsx';
+
+// Remaining placeholders (we will build these next)
 const TeacherDashboard = () => <div style={{ padding: 20 }}><h3>👨‍🏫 Teacher Hub & Course Builder</h3></div>;
 const AdminDashboard = () => <div style={{ padding: 20 }}><h3>👑 Master Admin Command Center</h3></div>;
 
